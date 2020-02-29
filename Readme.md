@@ -1,5 +1,7 @@
 # A simple Ansible Vault implementation for .net core
 
+![.NET Core](https://github.com/laupas/AnsibleVault/workflows/.NET%20Core/badge.svg?branch=master)
+
 ## Encode
 ```
 var input = "$ANSIBLE_VAULT;1.1;AES256" + Environment.NewLine +

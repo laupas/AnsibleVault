@@ -2,6 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <RepositoryUrl></RepositoryUrl>
+        <Title>AnsibleVault</Title>
+        <Authors>Pascal Lauener</Authors>
+        <Description>A simple Ansible Vault implementation for .net core</Description>
+        <PackageLicenseUrl>https://github.com/laupas/AnsibleVault/blob/master/LICENSE</PackageLicenseUrl>
+        <PackageTags>Ansible Vault</PackageTags>
+        <PackageProjectUrl>https://github.com/laupas/AnsibleVault</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
