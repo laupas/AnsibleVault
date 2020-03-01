@@ -6,8 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Bullseye" Version="3.2.0" />
-      <PackageReference Include="SimpleExec" Version="6.2.0" />
+      <PackageReference Include="LauPas.BuildExtensions" Version="1.0.5" />
     </ItemGroup>
 
 </Project>
