@@ -2,6 +2,13 @@
 
 ![.NET Core](https://github.com/laupas/AnsibleVault/workflows/.NET%20Core/badge.svg?branch=master)
 
+## Install
+[Nuget.org](https://www.nuget.org/packages/AnsibleVault/)
+
+```
+dotnet add package AnsibleVault
+```
+
 ## Encode
 ```
 var input = "$ANSIBLE_VAULT;1.1;AES256" + Environment.NewLine +

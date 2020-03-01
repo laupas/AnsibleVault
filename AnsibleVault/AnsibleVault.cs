@@ -4,7 +4,7 @@ using System.Text;
 using Org.BouncyCastle.Crypto.Parameters;
 using Org.BouncyCastle.Security;
 
-namespace AnsibleVault
+namespace LauPas.AnsibleVault
 {
     public class AnsibleVault : IAnsibleVault
     {

@@ -1,8 +1,8 @@
 using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AnsibleVault.Tests
+namespace LauPas.AnsibleVault.Tests
 {
     [TestClass]
     public class AnsibleVaultTests
@@ -11,7 +11,7 @@ namespace AnsibleVault.Tests
 
         public AnsibleVaultTests()
         {
-            this.ansibleVault = new AnsibleVault();            
+            this.ansibleVault = new LauPas.AnsibleVault.AnsibleVault();            
         }
         
         [TestMethod]
@@ -61,7 +61,7 @@ namespace AnsibleVault.Tests
             var decryptedValue = this.ansibleVault.Encode("1234", input);
             
             // Assert
-            var result = new AnsibleVault().Decode("1234", decryptedValue);
+            var result = new LauPas.AnsibleVault.AnsibleVault().Decode("1234", decryptedValue);
             result.Should().Be(input);
         }
 

@@ -9,6 +9,7 @@
         <PackageLicenseUrl>https://github.com/laupas/AnsibleVault/blob/master/LICENSE</PackageLicenseUrl>
         <PackageTags>Ansible Vault</PackageTags>
         <PackageProjectUrl>https://github.com/laupas/AnsibleVault</PackageProjectUrl>
+        <RootNamespace>LauPas.AnsibleVault</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

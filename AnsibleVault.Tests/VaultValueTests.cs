@@ -2,7 +2,7 @@ using System;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AnsibleVault.Tests
+namespace LauPas.AnsibleVault.Tests
 {
     [TestClass]
     public class VaultValueTests

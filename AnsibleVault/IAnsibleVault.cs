@@ -1,4 +1,4 @@
-namespace AnsibleVault
+namespace LauPas.AnsibleVault
 {
     public interface IAnsibleVault
     {
